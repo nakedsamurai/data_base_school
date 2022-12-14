@@ -59,29 +59,3 @@ create table signing_up_for_trainings (
     client_id integer not null references client(id) on delete cascade,
     group_number integer not null references training_schedule(group_number) on delete cascade
 );
-
---
-create table Pilot (
-    pilot_id serial primary key,
-    name varchar(50),
-    age integer,
-    rank varchar(50),
-    education_level varchar(50)
-);
-
-create table Plane (
-    plane_id serial primary key,
-    capacity integer,
-    cargo_flg integer
-);
-
-create table Flight (
-    flight_id integer,
-    flight_dt date,
-    primary key (flight_id, flight_dt),
-    plane_id integer references Plane(plane_id),
-    first_pilot_id integer references Pilot(pilot_id),
-    second_pilot_id integer references Pilot(pilot_id),
-    destination varchar(50),
-    quantity integer
-)
