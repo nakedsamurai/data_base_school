@@ -1,26 +1,5 @@
 # project_minor
 
-
-\documentclass{article}
-\usepackage{mathtext}
-\usepackage[T2A]{fontenc}
-\usepackage[left=1.5cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
-\usepackage[russian,english]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{wrapfig}
-\usepackage[unicode, pdftex]{hyperref}
-\usepackage[dvips]{graphicx}
-\linespread{1.2}
-\usepackage{amsmath}
-\usepackage{pgfplots}
-\usepackage{amsfonts}
-\pgfplotsset{compat=1.9}
-\begin{document}
-\title{\href{https://github.com/stepanskiba/project_minor}{База данных ”Школа боевых искусств”}}
-\date{}
-\maketitle
 Мы выбрали создание базы данных, связанной со школой боевых искусств, в которой будут доступны функции, которые привычно используются для сайтов различных спортивных комплексов. \\
 Есть таблицы: тренера, абонементы, клиенты, виды боевых исскуств, приобретение абонемента, запись на тренировки.
 \section{Доступная функциональность:}
@@ -66,10 +45,3 @@
 \end{verbatim}
     \end{itemize}
 \end{itemize}  
-   \begin{figure}
-    \centering
-    \includegraphics[width =0.7 \linewidth]{fig/diagram.png}
-    \caption{Даталогическая модель}
-    \label{fig:my_label}
-\end{figure}
-\end{document}
