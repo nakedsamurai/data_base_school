@@ -21,3 +21,5 @@
 - Клиент $\leftrightarrow$ запись на тренировку
 - Запись на тренировку $\leftrightarrow$ расписание занятий
 - Клиент $\leftrightarrow$ покупка абонемента
+
+<img src="https://github.com/stepanskiba/martitial_art_data_base/blob/main/diagram.png" alt="альтернативный текст">
